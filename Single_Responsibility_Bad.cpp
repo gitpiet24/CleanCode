@@ -19,6 +19,7 @@ public:		//This creates the product
 		this->taxRate = taxRate;
 	}
 
+
 	float calculateTax() {	//This method calculates the tax rate
 		return this->price * this->taxRate;
 	}
@@ -30,3 +31,4 @@ int main() {
 	float taxesForShirt = tshirt.calculateTax();
 	return 0;
 }
+
